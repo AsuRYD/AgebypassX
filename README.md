@@ -61,15 +61,6 @@ If `navBlocked` increments when you open an age-gated post, Layer 1 is working. 
 
 Tested on Chrome + Tampermonkey, November 2026 build of X.com. Should work on Firefox + Violentmonkey. Mobile browsers with userscript support (Kiwi Browser, Orion) should work but are not regularly tested.
 
-## Contributing
-
-If a new redirect mechanism shows up, the most useful thing you can send in an issue is:
-
-1. `Object.keys(window.__INITIAL_DATA__ || {})` output
-2. The soft-navigation URL from the console (the `/i/age_verification/...` line)
-3. Output of clicking the diagnostic dot
-
-That's enough to identify the new mechanism and patch it.
 
 ## License
 
